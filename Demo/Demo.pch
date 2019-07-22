@@ -1,0 +1,15 @@
+//
+//  Demo.pch
+//  Demo
+//
+//  Created by fengbo on 18/12/2017.
+//  Copyright © 2017 fengbo. All rights reserved.
+//
+
+#ifndef Demo_pch
+#define Demo_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define MAS_SHORTHAND_GLOBALS
+#endif /* Demo_pch */

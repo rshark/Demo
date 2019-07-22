@@ -1,0 +1,9 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Base64" "${PODS_ROOT}/Headers/Public/JWT" "${PODS_ROOT}/Headers/Public/Masonry" "${PODS_ROOT}/Headers/Public/YPNavigationBarTransition" "${PODS_ROOT}/Headers/Public/lottie-ios" "${PODS_ROOT}/Headers/Public/pop"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Base64" "${PODS_CONFIGURATION_BUILD_DIR}/JWT" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_CONFIGURATION_BUILD_DIR}/YPNavigationBarTransition" "${PODS_CONFIGURATION_BUILD_DIR}/lottie-ios" "${PODS_CONFIGURATION_BUILD_DIR}/pop"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Base64" -isystem "${PODS_ROOT}/Headers/Public/JWT" -isystem "${PODS_ROOT}/Headers/Public/Masonry" -isystem "${PODS_ROOT}/Headers/Public/YPNavigationBarTransition" -isystem "${PODS_ROOT}/Headers/Public/lottie-ios" -isystem "${PODS_ROOT}/Headers/Public/pop"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Base64" -l"JWT" -l"Masonry" -l"YPNavigationBarTransition" -l"c++" -l"lottie-ios" -l"pop" -framework "Foundation" -framework "Security" -framework "UIKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

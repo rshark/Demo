@@ -1,0 +1,36 @@
+PODS:
+  - Base64 (1.1.2)
+  - JWT (3.0.0-beta.11):
+    - Base64 (~> 1.1.2)
+  - lottie-ios (2.5.3)
+  - Masonry (1.1.0)
+  - pop (1.0.12)
+  - YPNavigationBarTransition (2.0.9)
+
+DEPENDENCIES:
+  - JWT (~> 3.0.0-beta.11)
+  - lottie-ios
+  - Masonry
+  - pop (~> 1.0.12)
+  - YPNavigationBarTransition
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Base64
+    - JWT
+    - lottie-ios
+    - Masonry
+    - pop
+    - YPNavigationBarTransition
+
+SPEC CHECKSUMS:
+  Base64: cecfb41a004124895a7bcee567a89bae5a89d49b
+  JWT: 05028b9624591bba9681bb57df2c5f95fa258bad
+  lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  YPNavigationBarTransition: 928a8a3d944cecfd2f10a0847710384a9cdf9039
+
+PODFILE CHECKSUM: 8a0d391f58f28bfd5779e2102214d33c1b43bca0
+
+COCOAPODS: 1.5.2
