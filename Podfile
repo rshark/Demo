@@ -6,4 +6,6 @@ target ‘Demo’ do
     pod 'JWT', '~> 3.0.0-beta.11'
     pod 'pop', '~> 1.0.12'
     pod 'lottie-ios'
+    pod 'Texture'
+    pod 'AFNetworking', '~> 3.0'
 end
