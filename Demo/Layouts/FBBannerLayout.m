@@ -52,8 +52,8 @@
     CGFloat minItemOffsetX = self.collectionView.contentOffset.x - _marginInset;
     CGFloat maxItemOffsetX = MIN(self.collectionView.contentOffset.x + CGRectGetWidth(self.collectionView.bounds), _contentSize.width) - 2 * _marginInset;
     NSInteger numOfItems = [self.collectionView numberOfItemsInSection:0];
-    NSInteger minIdx = floor((minItemOffsetX + self.spacing) / (self.itemSize.width + self.spacing));
-    NSInteger maxIdx = ceil((maxItemOffsetX + self.spacing) / (self.itemSize.width + self.spacing));
+    NSInteger minIdx = floor(minItemOffsetX / (self.itemSize.width + self.spacing)); // 左边界为准
+    NSInteger maxIdx = ceil((maxItemOffsetX + self.spacing) / (self.itemSize.width + self.spacing)); // 右边界为准
     minIdx = MAX(0, minIdx);
     maxIdx = MIN(numOfItems - 1, maxIdx);
     
@@ -71,10 +71,10 @@
 
 - (CGPoint)targetContentOffsetForProposedContentOffset:(CGPoint)proposedContentOffset withScrollingVelocity:(CGPoint)velocity {
     CGFloat proposedCenterX = proposedContentOffset.x - _marginInset + CGRectGetWidth(self.collectionView.bounds) / 2.0;
-    NSInteger idx = floor((proposedCenterX + self.spacing) / (self.itemSize.width + self.spacing));
+    NSInteger num = ceil((proposedCenterX + self.spacing) / (self.itemSize.width + self.spacing));
     NSInteger numOfItems = [self.collectionView numberOfItemsInSection:0];
-    idx = MAX(0, MIN(numOfItems - 1, idx));
-    CGFloat targetOffsetX = idx * (self.itemSize.width + self.spacing) - self.spacing + _marginInset + self.itemSize.width / 2.0 - CGRectGetWidth(self.collectionView.bounds) / 2.0;
+    num = MAX(0, MIN(numOfItems, num));
+    CGFloat targetOffsetX = _marginInset + (num - 1) * (self.itemSize.width + self.spacing) - (CGRectGetWidth(self.collectionView.bounds) / 2.0 - self.itemSize.width / 2.0);
     return CGPointMake(targetOffsetX, 0.0);
 }
 

@@ -22,6 +22,7 @@
 		BE7ADA4E22EB06F700AE6905 /* Oswald-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE7ADA4122EB06F700AE6905 /* Oswald-Bold.ttf */; };
 		BE7ADA4F22EB06F700AE6905 /* mjrefresh_header_pulldown_new.json in Resources */ = {isa = PBXBuildFile; fileRef = BE7ADA4322EB06F700AE6905 /* mjrefresh_header_pulldown_new.json */; };
 		BE7ADA5022EB06F700AE6905 /* mjrefresh_header_loding_new.json in Resources */ = {isa = PBXBuildFile; fileRef = BE7ADA4422EB06F700AE6905 /* mjrefresh_header_loding_new.json */; };
+		BE8778EA232F864F00BA7892 /* PresentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8778E9232F864F00BA7892 /* PresentedViewController.m */; };
 		BE9F87DB22EED9D200D50227 /* more@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE9F87DA22EED9D200D50227 /* more@3x.png */; };
 		BEA17B2F1E9E0457009B79C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA17B2E1E9E0457009B79C8 /* main.m */; };
 		BEA17B321E9E0457009B79C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA17B311E9E0457009B79C8 /* AppDelegate.m */; };
@@ -94,6 +95,8 @@
 		BE7ADA4122EB06F700AE6905 /* Oswald-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Bold.ttf"; sourceTree = "<group>"; };
 		BE7ADA4322EB06F700AE6905 /* mjrefresh_header_pulldown_new.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mjrefresh_header_pulldown_new.json; sourceTree = "<group>"; };
 		BE7ADA4422EB06F700AE6905 /* mjrefresh_header_loding_new.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mjrefresh_header_loding_new.json; sourceTree = "<group>"; };
+		BE8778E8232F864F00BA7892 /* PresentedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresentedViewController.h; sourceTree = "<group>"; };
+		BE8778E9232F864F00BA7892 /* PresentedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresentedViewController.m; sourceTree = "<group>"; };
 		BE9319321FE79A1D00BAA3AE /* Demo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo.pch; sourceTree = "<group>"; };
 		BE9F87DA22EED9D200D50227 /* more@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more@3x.png"; sourceTree = "<group>"; };
 		BEA17B2A1E9E0457009B79C8 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -165,6 +168,8 @@
 		BE3554FF232897C100587BFA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				BE8778E8232F864F00BA7892 /* PresentedViewController.h */,
+				BE8778E9232F864F00BA7892 /* PresentedViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -549,6 +554,7 @@
 				BE7ADA4D22EB06F700AE6905 /* PlatformView.m in Sources */,
 				BE7ADA4922EB06F700AE6905 /* PopUpWindow.m in Sources */,
 				BEA17B2F1E9E0457009B79C8 /* main.m in Sources */,
+				BE8778EA232F864F00BA7892 /* PresentedViewController.m in Sources */,
 				BE7ADA4722EB06F700AE6905 /* UIView+Gradient.m in Sources */,
 				BE7ADA4A22EB06F700AE6905 /* PopUpView.m in Sources */,
 				BE7ADA4B22EB06F700AE6905 /* RoundCornerView.m in Sources */,
