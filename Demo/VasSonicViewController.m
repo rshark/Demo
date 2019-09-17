@@ -12,6 +12,8 @@
 #import "FBUtils.h"
 #import <Masonry.h>
 
+
+
 @interface VasSonicViewController ()
 
 @end
@@ -30,7 +32,8 @@
 - (void)presentVC:(UIButton *)btn {
     PresentedViewController *presentedVC = [[PresentedViewController alloc] init];
     
-    [self presentViewController:presentedVC animated:YES completion:nil];
+//    [self presentViewController:presentedVC animated:YES completion:nil];
+    [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:presentedVC animated:YES completion:nil];
 }
 
 @end

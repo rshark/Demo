@@ -8,4 +8,5 @@ target ‘Demo’ do
     pod 'lottie-ios'
     pod 'Texture'
     pod 'AFNetworking', '~> 3.0'
+    pod 'Aspects'
 end

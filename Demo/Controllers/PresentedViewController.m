@@ -35,15 +35,21 @@
     [self.view addSubview:presentButton];
 }
 
+- (void)dealloc {
+    NSLog(@"dealloc PresentedViewController");
+}
+
 - (void)dismissVC:(UIButton *)btn {
-    [self dismissViewControllerAnimated:YES completion:nil];
+//    [self dismissViewControllerAnimated:YES completion:nil];
+    [[UIApplication sharedApplication].keyWindow.rootViewController dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (void)presentVC:(UIButton *)btn {
     
     PresentedViewController *presentedVC = [[PresentedViewController alloc] init];
-    
-    [self presentViewController:presentedVC animated:YES completion:nil];
+//
+//    [self presentViewController:presentedVC animated:YES completion:nil];
+    [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:presentedVC animated:YES completion:nil];
 }
 
 @end
