@@ -10,7 +10,9 @@
 		4FF3A5A2B9C41FB91362C2BE /* libPods-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC7A5ADC844F18EBE300716 /* libPods-Demo.a */; };
 		BE09DB542330B5B000885A82 /* UIViewController+PresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE09DB532330B5B000885A82 /* UIViewController+PresentViewController.m */; };
 		BE09DB5C2330CE1900885A82 /* RSSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = BE09DB5B2330CE1900885A82 /* RSSwizzle.m */; };
+		BE203C01237C1D66006B361F /* TextureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE203C00237C1D66006B361F /* TextureViewController.m */; };
 		BE3555032328981200587BFA /* FBBannerLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3555022328981200587BFA /* FBBannerLayout.m */; };
+		BE4B9D302382A4F600432498 /* TextureNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4B9D2F2382A4F600432498 /* TextureNode.m */; };
 		BE4FBB6B1EA8AF3900ACF618 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4FBB691EA8AF3900ACF618 /* Main.storyboard */; };
 		BE7ADA4522EB06F700AE6905 /* UIImage+ColorFromPixel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7ADA2A22EB06F700AE6905 /* UIImage+ColorFromPixel.m */; };
 		BE7ADA4622EB06F700AE6905 /* FBUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7ADA2D22EB06F700AE6905 /* FBUtils.m */; };
@@ -25,6 +27,16 @@
 		BE7ADA4F22EB06F700AE6905 /* mjrefresh_header_pulldown_new.json in Resources */ = {isa = PBXBuildFile; fileRef = BE7ADA4322EB06F700AE6905 /* mjrefresh_header_pulldown_new.json */; };
 		BE7ADA5022EB06F700AE6905 /* mjrefresh_header_loding_new.json in Resources */ = {isa = PBXBuildFile; fileRef = BE7ADA4422EB06F700AE6905 /* mjrefresh_header_loding_new.json */; };
 		BE8778EA232F864F00BA7892 /* PresentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8778E9232F864F00BA7892 /* PresentedViewController.m */; };
+		BE8F48A223A7D2A100AAE8C9 /* 欺负@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE8F489923A7D29D00AAE8C9 /* 欺负@2x.png */; };
+		BE8F48A323A7D2A100AAE8C9 /* 安慰@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE8F489A23A7D29D00AAE8C9 /* 安慰@3x.png */; };
+		BE8F48A423A7D2A100AAE8C9 /* 欺负.png in Resources */ = {isa = PBXBuildFile; fileRef = BE8F489B23A7D29D00AAE8C9 /* 欺负.png */; };
+		BE8F48A523A7D2A100AAE8C9 /* 关闭@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE8F489C23A7D29D00AAE8C9 /* 关闭@2x.png */; };
+		BE8F48A623A7D2A100AAE8C9 /* 关闭@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE8F489D23A7D29E00AAE8C9 /* 关闭@3x.png */; };
+		BE8F48A723A7D2A100AAE8C9 /* 关闭.png in Resources */ = {isa = PBXBuildFile; fileRef = BE8F489E23A7D29F00AAE8C9 /* 关闭.png */; };
+		BE8F48A823A7D2A100AAE8C9 /* 欺负@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE8F489F23A7D2A000AAE8C9 /* 欺负@3x.png */; };
+		BE8F48A923A7D2A100AAE8C9 /* 安慰@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE8F48A023A7D2A000AAE8C9 /* 安慰@2x.png */; };
+		BE8F48AA23A7D2A100AAE8C9 /* 安慰.png in Resources */ = {isa = PBXBuildFile; fileRef = BE8F48A123A7D2A100AAE8C9 /* 安慰.png */; };
+		BE9A0996238E0F0B0083881B /* VIP icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE9A0993238E0F0B0083881B /* VIP icon@3x.png */; };
 		BE9F87DB22EED9D200D50227 /* more@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE9F87DA22EED9D200D50227 /* more@3x.png */; };
 		BEA17B2F1E9E0457009B79C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA17B2E1E9E0457009B79C8 /* main.m */; };
 		BEA17B321E9E0457009B79C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA17B311E9E0457009B79C8 /* AppDelegate.m */; };
@@ -32,8 +44,10 @@
 		BEA17B3D1E9E0457009B79C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA17B3B1E9E0457009B79C8 /* LaunchScreen.storyboard */; };
 		BEA17B481E9E0457009B79C8 /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA17B471E9E0457009B79C8 /* DemoTests.m */; };
 		BEA17B531E9E0457009B79C8 /* DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA17B521E9E0457009B79C8 /* DemoUITests.m */; };
+		BEA78E932394E9BA00FF8869 /* UIViewHierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA78E922394E9BA00FF8869 /* UIViewHierarchy.m */; };
 		BEB071EA222FADB000308722 /* VasSonicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB071E9222FADB000308722 /* VasSonicViewController.m */; };
 		BED18FE4232201A80091FF41 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED18FE3232201A80091FF41 /* StoreKit.framework */; };
+		BEDC33AF237D03EC007AA01B /* TextureCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDC33AE237D03EC007AA01B /* TextureCellNode.m */; };
 		BEF2D18F21E2EA2100C77CD4 /* btn-支付@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEF2D18C21E2EA2100C77CD4 /* btn-支付@3x.png */; };
 /* End PBXBuildFile section */
 
@@ -76,8 +90,12 @@
 		BE09DB532330B5B000885A82 /* UIViewController+PresentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PresentViewController.m"; sourceTree = "<group>"; };
 		BE09DB582330CE1900885A82 /* RSSwizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSSwizzle.h; sourceTree = "<group>"; };
 		BE09DB5B2330CE1900885A82 /* RSSwizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSSwizzle.m; sourceTree = "<group>"; };
+		BE203BFF237C1D66006B361F /* TextureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextureViewController.h; sourceTree = "<group>"; };
+		BE203C00237C1D66006B361F /* TextureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextureViewController.m; sourceTree = "<group>"; };
 		BE3555012328981200587BFA /* FBBannerLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBBannerLayout.h; sourceTree = "<group>"; };
 		BE3555022328981200587BFA /* FBBannerLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBBannerLayout.m; sourceTree = "<group>"; };
+		BE4B9D2E2382A4F600432498 /* TextureNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextureNode.h; sourceTree = "<group>"; };
+		BE4B9D2F2382A4F600432498 /* TextureNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextureNode.m; sourceTree = "<group>"; };
 		BE4FBB6A1EA8AF3900ACF618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE6ED3F61F7A2F8800515260 /* BFKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BFKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6ED3F71F7A4A5600515260 /* BFKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BFKit.xcodeproj; path = BFKit/BFKit/BFKit.xcodeproj; sourceTree = "<group>"; };
@@ -103,7 +121,18 @@
 		BE7ADA4422EB06F700AE6905 /* mjrefresh_header_loding_new.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mjrefresh_header_loding_new.json; sourceTree = "<group>"; };
 		BE8778E8232F864F00BA7892 /* PresentedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresentedViewController.h; sourceTree = "<group>"; };
 		BE8778E9232F864F00BA7892 /* PresentedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresentedViewController.m; sourceTree = "<group>"; };
+		BE8F489923A7D29D00AAE8C9 /* 欺负@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "欺负@2x.png"; sourceTree = "<group>"; };
+		BE8F489A23A7D29D00AAE8C9 /* 安慰@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "安慰@3x.png"; sourceTree = "<group>"; };
+		BE8F489B23A7D29D00AAE8C9 /* 欺负.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "欺负.png"; sourceTree = "<group>"; };
+		BE8F489C23A7D29D00AAE8C9 /* 关闭@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关闭@2x.png"; sourceTree = "<group>"; };
+		BE8F489D23A7D29E00AAE8C9 /* 关闭@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关闭@3x.png"; sourceTree = "<group>"; };
+		BE8F489E23A7D29F00AAE8C9 /* 关闭.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关闭.png"; sourceTree = "<group>"; };
+		BE8F489F23A7D2A000AAE8C9 /* 欺负@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "欺负@3x.png"; sourceTree = "<group>"; };
+		BE8F48A023A7D2A000AAE8C9 /* 安慰@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "安慰@2x.png"; sourceTree = "<group>"; };
+		BE8F48A123A7D2A100AAE8C9 /* 安慰.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "安慰.png"; sourceTree = "<group>"; };
 		BE9319321FE79A1D00BAA3AE /* Demo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo.pch; sourceTree = "<group>"; };
+		BE95821F23A13C230069B295 /* Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		BE9A0993238E0F0B0083881B /* VIP icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VIP icon@3x.png"; sourceTree = "<group>"; };
 		BE9F87DA22EED9D200D50227 /* more@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more@3x.png"; sourceTree = "<group>"; };
 		BEA17B2A1E9E0457009B79C8 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA17B2E1E9E0457009B79C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -118,9 +147,13 @@
 		BEA17B4E1E9E0457009B79C8 /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA17B521E9E0457009B79C8 /* DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoUITests.m; sourceTree = "<group>"; };
 		BEA17B541E9E0457009B79C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEA78E912394E9BA00FF8869 /* UIViewHierarchy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UIViewHierarchy.h; path = Demo/Views/UIViewHierarchy.h; sourceTree = SOURCE_ROOT; };
+		BEA78E922394E9BA00FF8869 /* UIViewHierarchy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = UIViewHierarchy.m; path = Demo/Views/UIViewHierarchy.m; sourceTree = SOURCE_ROOT; };
 		BEB071E8222FADB000308722 /* VasSonicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VasSonicViewController.h; sourceTree = "<group>"; };
 		BEB071E9222FADB000308722 /* VasSonicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VasSonicViewController.m; sourceTree = "<group>"; };
 		BED18FE3232201A80091FF41 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		BEDC33AD237D03EC007AA01B /* TextureCellNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextureCellNode.h; sourceTree = "<group>"; };
+		BEDC33AE237D03EC007AA01B /* TextureCellNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextureCellNode.m; sourceTree = "<group>"; };
 		BEF2D18C21E2EA2100C77CD4 /* btn-支付@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-支付@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -171,6 +204,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		BE203BFC237C1D17006B361F /* Texture */ = {
+			isa = PBXGroup;
+			children = (
+				BEDC33AA237CF763007AA01B /* Views */,
+				BE203BFF237C1D66006B361F /* TextureViewController.h */,
+				BE203C00237C1D66006B361F /* TextureViewController.m */,
+			);
+			path = Texture;
+			sourceTree = "<group>";
+		};
 		BE3554FF232897C100587BFA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,6 +232,15 @@
 				BE3555022328981200587BFA /* FBBannerLayout.m */,
 			);
 			path = Layouts;
+			sourceTree = "<group>";
+		};
+		BE6487D12394E8B4002EF80B /* UIViewHierarchy */ = {
+			isa = PBXGroup;
+			children = (
+				BEA78E912394E9BA00FF8869 /* UIViewHierarchy.h */,
+				BEA78E922394E9BA00FF8869 /* UIViewHierarchy.m */,
+			);
+			path = UIViewHierarchy;
 			sourceTree = "<group>";
 		};
 		BE6ED3F81F7A4A5600515260 /* Products */ = {
@@ -227,6 +279,8 @@
 		BE7ADA3122EB06F700AE6905 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BE7E34AC23A79F3D007E64AF /* Pop */,
+				BE6487D12394E8B4002EF80B /* UIViewHierarchy */,
 				BE7ADA3222EB06F700AE6905 /* Pop-up Window */,
 				BE7ADA3722EB06F700AE6905 /* RoundCornerView */,
 				BE7ADA3A22EB06F700AE6905 /* GradientView */,
@@ -268,6 +322,7 @@
 		BE7ADA3F22EB06F700AE6905 /* Srcs */ = {
 			isa = PBXGroup;
 			children = (
+				BE8F489523A7D23800AAE8C9 /* Images */,
 				BE7ADA4022EB06F700AE6905 /* TTF */,
 				BE7ADA4222EB06F700AE6905 /* LOTAnimationFiles */,
 			);
@@ -289,6 +344,29 @@
 				BE7ADA4422EB06F700AE6905 /* mjrefresh_header_loding_new.json */,
 			);
 			path = LOTAnimationFiles;
+			sourceTree = "<group>";
+		};
+		BE7E34AC23A79F3D007E64AF /* Pop */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pop;
+			sourceTree = "<group>";
+		};
+		BE8F489523A7D23800AAE8C9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BE8F48A123A7D2A100AAE8C9 /* 安慰.png */,
+				BE8F48A023A7D2A000AAE8C9 /* 安慰@2x.png */,
+				BE8F489A23A7D29D00AAE8C9 /* 安慰@3x.png */,
+				BE8F489E23A7D29F00AAE8C9 /* 关闭.png */,
+				BE8F489C23A7D29D00AAE8C9 /* 关闭@2x.png */,
+				BE8F489D23A7D29E00AAE8C9 /* 关闭@3x.png */,
+				BE8F489B23A7D29D00AAE8C9 /* 欺负.png */,
+				BE8F489923A7D29D00AAE8C9 /* 欺负@2x.png */,
+				BE8F489F23A7D2A000AAE8C9 /* 欺负@3x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 		BEA17B211E9E0457009B79C8 = {
@@ -316,6 +394,7 @@
 		BEA17B2C1E9E0457009B79C8 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				BE203BFC237C1D17006B361F /* Texture */,
 				BEB3884E2328A4B60041858D /* Attributes */,
 				BE355500232897F800587BFA /* Layouts */,
 				BE3554FF232897C100587BFA /* Controllers */,
@@ -328,11 +407,13 @@
 				BEB071E8222FADB000308722 /* VasSonicViewController.h */,
 				BEB071E9222FADB000308722 /* VasSonicViewController.m */,
 				BEF2D18C21E2EA2100C77CD4 /* btn-支付@3x.png */,
+				BE9A0993238E0F0B0083881B /* VIP icon@3x.png */,
 				BEA17B391E9E0457009B79C8 /* Assets.xcassets */,
 				BEA17B3B1E9E0457009B79C8 /* LaunchScreen.storyboard */,
 				BE4FBB691EA8AF3900ACF618 /* Main.storyboard */,
 				BEA17B3E1E9E0457009B79C8 /* Info.plist */,
 				BEA17B2D1E9E0457009B79C8 /* Supporting Files */,
+				BE95821F23A13C230069B295 /* Demo-Bridging-Header.h */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -371,6 +452,17 @@
 			path = Attributes;
 			sourceTree = "<group>";
 		};
+		BEDC33AA237CF763007AA01B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BEDC33AD237D03EC007AA01B /* TextureCellNode.h */,
+				BEDC33AE237D03EC007AA01B /* TextureCellNode.m */,
+				BE4B9D2E2382A4F600432498 /* TextureNode.h */,
+				BE4B9D2F2382A4F600432498 /* TextureNode.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -382,6 +474,7 @@
 				BEA17B261E9E0457009B79C8 /* Sources */,
 				BEA17B271E9E0457009B79C8 /* Frameworks */,
 				BEA17B281E9E0457009B79C8 /* Resources */,
+				405C02920986F16A03726173 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -440,6 +533,7 @@
 					BEA17B291E9E0457009B79C8 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = 257BLSQJ3A;
+						LastSwiftMigration = 1030;
 						ProvisioningStyle = Automatic;
 					};
 					BEA17B421E9E0457009B79C8 = {
@@ -503,12 +597,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE8F48A423A7D2A100AAE8C9 /* 欺负.png in Resources */,
 				BE7ADA4822EB06F700AE6905 /* cat.jpg in Resources */,
+				BE9A0996238E0F0B0083881B /* VIP icon@3x.png in Resources */,
+				BE8F48A823A7D2A100AAE8C9 /* 欺负@3x.png in Resources */,
 				BEA17B3D1E9E0457009B79C8 /* LaunchScreen.storyboard in Resources */,
+				BE8F48A923A7D2A100AAE8C9 /* 安慰@2x.png in Resources */,
 				BE9F87DB22EED9D200D50227 /* more@3x.png in Resources */,
 				BEA17B3A1E9E0457009B79C8 /* Assets.xcassets in Resources */,
+				BE8F48A223A7D2A100AAE8C9 /* 欺负@2x.png in Resources */,
+				BE8F48A623A7D2A100AAE8C9 /* 关闭@3x.png in Resources */,
 				BEF2D18F21E2EA2100C77CD4 /* btn-支付@3x.png in Resources */,
+				BE8F48A723A7D2A100AAE8C9 /* 关闭.png in Resources */,
+				BE8F48AA23A7D2A100AAE8C9 /* 安慰.png in Resources */,
 				BE4FBB6B1EA8AF3900ACF618 /* Main.storyboard in Resources */,
+				BE8F48A323A7D2A100AAE8C9 /* 安慰@3x.png in Resources */,
+				BE8F48A523A7D2A100AAE8C9 /* 关闭@2x.png in Resources */,
 				BE7ADA4E22EB06F700AE6905 /* Oswald-Bold.ttf in Resources */,
 				BE7ADA5022EB06F700AE6905 /* mjrefresh_header_loding_new.json in Resources */,
 				BE7ADA4F22EB06F700AE6905 /* mjrefresh_header_pulldown_new.json in Resources */,
@@ -532,6 +636,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		405C02920986F16A03726173 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		ED34AEE0CBCBB8A8F62FD54E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -558,11 +680,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE7ADA4C22EB06F700AE6905 /* GradientView.m in Sources */,
+				BEA78E932394E9BA00FF8869 /* UIViewHierarchy.m in Sources */,
 				BEA17B321E9E0457009B79C8 /* AppDelegate.m in Sources */,
+				BE203C01237C1D66006B361F /* TextureViewController.m in Sources */,
 				BE09DB5C2330CE1900885A82 /* RSSwizzle.m in Sources */,
 				BEB071EA222FADB000308722 /* VasSonicViewController.m in Sources */,
 				BE7ADA4522EB06F700AE6905 /* UIImage+ColorFromPixel.m in Sources */,
 				BE7ADA4D22EB06F700AE6905 /* PlatformView.m in Sources */,
+				BE4B9D302382A4F600432498 /* TextureNode.m in Sources */,
 				BE09DB542330B5B000885A82 /* UIViewController+PresentViewController.m in Sources */,
 				BE7ADA4922EB06F700AE6905 /* PopUpWindow.m in Sources */,
 				BEA17B2F1E9E0457009B79C8 /* main.m in Sources */,
@@ -572,6 +697,7 @@
 				BE7ADA4B22EB06F700AE6905 /* RoundCornerView.m in Sources */,
 				BE7ADA4622EB06F700AE6905 /* FBUtils.m in Sources */,
 				BE3555032328981200587BFA /* FBBannerLayout.m in Sources */,
+				BEDC33AF237D03EC007AA01B /* TextureCellNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -723,6 +849,8 @@
 			baseConfigurationReference = 14C09E00715E2DBF6DDDF977 /* Pods-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 257BLSQJ3A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Demo/Demo.pch";
@@ -737,6 +865,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fengbo.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Demo/Demo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -745,6 +876,8 @@
 			baseConfigurationReference = 5E44D043F28E925A1DD405EA /* Pods-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 257BLSQJ3A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Demo/Demo.pch";
@@ -759,6 +892,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fengbo.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Demo/Demo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

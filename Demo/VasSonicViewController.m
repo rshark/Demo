@@ -7,33 +7,44 @@
 //
 
 #import "VasSonicViewController.h"
-#import "PresentedViewController.h"
 
 #import "FBUtils.h"
 #import <Masonry.h>
-
+#import <POP.h>
 
 
 @interface VasSonicViewController ()
+
 
 @end
 
 @implementation VasSonicViewController
 
 - (void)viewDidLoad {
-    UIButton *presentButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    presentButton.frame = CGRectMake(10.0, 100.0, 100.0, 40.0);
-    [presentButton setTitle:@"present" forState:UIControlStateNormal];
-    [presentButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    [presentButton addTarget:self action:@selector(presentVC:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:presentButton];
+ 
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.backgroundColor = [UIColor cyanColor];
+    [button setTitle:@"add" forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(add:) forControlEvents:UIControlEventTouchUpInside];
+    [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    
+    [self.view addSubview:button];
+    
+    [button mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(200.0);
+        make.left.equalTo(100.0);
+        make.size.equalTo(CGSizeMake(60.0, 30.0));
+    }];
+    
+    
 }
 
-- (void)presentVC:(UIButton *)btn {
-    PresentedViewController *presentedVC = [[PresentedViewController alloc] init];
+- (void)add:(UIButton *)button {
+
     
-//    [self presentViewController:presentedVC animated:YES completion:nil];
-    [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:presentedVC animated:YES completion:nil];
+    
 }
 
 @end

@@ -20,6 +20,7 @@ PODS:
     - Base64 (~> 1.1.2)
   - lottie-ios (2.5.3)
   - Masonry (1.1.0)
+  - MJRefresh (3.2.3)
   - PINCache (3.0.1-beta.6):
     - PINCache/Arc-exception-safe (= 3.0.1-beta.6)
     - PINCache/Core (= 3.0.1-beta.6)
@@ -51,6 +52,7 @@ DEPENDENCIES:
   - JWT (~> 3.0.0-beta.11)
   - lottie-ios
   - Masonry
+  - MJRefresh (~> 3.2.3)
   - pop (~> 1.0.12)
   - Texture
   - YPNavigationBarTransition
@@ -63,6 +65,7 @@ SPEC REPOS:
     - JWT
     - lottie-ios
     - Masonry
+    - MJRefresh
     - PINCache
     - PINOperation
     - PINRemoteImage
@@ -77,6 +80,7 @@ SPEC CHECKSUMS:
   JWT: 05028b9624591bba9681bb57df2c5f95fa258bad
   lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 2b1214a2dc8f4df4c5dcb028ea2ad4e245425fb7
   PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
   PINOperation: 24b774353ca248fcf87d67b2d61eef42087c125a
   PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
@@ -84,6 +88,6 @@ SPEC CHECKSUMS:
   Texture: 7249074582daf75e524e59df5428b66b8e8db0e4
   YPNavigationBarTransition: 928a8a3d944cecfd2f10a0847710384a9cdf9039
 
-PODFILE CHECKSUM: 17df00bbb4d36c4838830a0fc335ccadfb41fc68
+PODFILE CHECKSUM: b2c9203f8d899aa1393a4ceca551b0d21106c69b
 
 COCOAPODS: 1.7.5
