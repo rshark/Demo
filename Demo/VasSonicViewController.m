@@ -10,7 +10,7 @@
 
 #import "FBUtils.h"
 #import <Masonry.h>
-#import <POP.h>
+#import "PopAnimViews.h"
 
 
 @interface VasSonicViewController ()
@@ -22,22 +22,9 @@
 
 - (void)viewDidLoad {
  
-    self.view.backgroundColor = [UIColor whiteColor];
-    
-    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-    button.backgroundColor = [UIColor cyanColor];
-    [button setTitle:@"add" forState:UIControlStateNormal];
-    [button addTarget:self action:@selector(add:) forControlEvents:UIControlEventTouchUpInside];
-    [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    
-    [self.view addSubview:button];
-    
-    [button mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(200.0);
-        make.left.equalTo(100.0);
-        make.size.equalTo(CGSizeMake(60.0, 30.0));
-    }];
-    
+    PopAnimViews *animViews = [[PopAnimViews alloc] initWithFrame:CGRectMake(50.0, 200.0, 300.0, 300.0)];
+    animViews.backgroundColor = [UIColor cyanColor];
+    [self.view addSubview:animViews];
     
 }
 
